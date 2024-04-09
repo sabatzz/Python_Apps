@@ -64,47 +64,47 @@ print(Y.intersection(X))
 
 #Instrukcje
 #1
-# imiona = ['Emilia', 'Natalia', 'Filip', 'Zuza', 'Mateusz', 'Ania']
+ imiona = ['Emilia', 'Natalia', 'Filip', 'Zuza', 'Mateusz', 'Ania']
 
-# for index, x in enumerate(imiona):
-#     print(index+1, x)
+ for index, x in enumerate(imiona):
+     print(index+1, x)
 
 #a
 
-# liczba = random.randint(-10, 10)
-# print(liczba)
-# if liczba > 0 and liczba % 2 == 0:
-#     print("Liczba jest dodatnia i parzysta")
-# elif liczba > 0 :
-#     print("Liczba jest dodatnia")
-# elif liczba % 2 == 0:
-#     print("Liczba jest parzysta")
-# else:
-#     print("Liczba nie jest dodatnia lub parzysta")
+ liczba = random.randint(-10, 10)
+ print(liczba)
+ if liczba > 0 and liczba % 2 == 0:
+     print("Liczba jest dodatnia i parzysta")
+ elif liczba > 0 :
+     print("Liczba jest dodatnia")
+ elif liczba % 2 == 0:
+     print("Liczba jest parzysta")
+ else:
+     print("Liczba nie jest dodatnia lub parzysta")
 
 #b
-# number = input("Wprowadź liczbę: ")
-# number = int(number)
-# if number != 0:
-#     print("Liczba jest różna od zera")
-# else:
-#     print("Liczba jest równa 0")
+ number = input("Wprowadź liczbę: ")
+ number = int(number)
+ if number != 0:
+     print("Liczba jest różna od zera")
+ else:
+     print("Liczba jest równa 0")
 
 # #c
-# owoce = ['jabłko', 'banan', 'pomarańcza']
-# owoc = input("Wprowadź owoc: ")
-# if owoc in owoce:
-#     print("Owoc dostępny")
-# else:
-#     print("Owoc niedostępny")
+ owoce = ['jabłko', 'banan', 'pomarańcza']
+ owoc = input("Wprowadź owoc: ")
+ if owoc in owoce:
+     print("Owoc dostępny")
+ else:
+     print("Owoc niedostępny")
 
 #3
-# suma = 0
-# while suma <= 100:
-#     num = input("Wprowadź liczbę: ")
-#     num = int(num)
-#     suma = suma + num
-# print(suma)
+ suma = 0
+ while suma <= 100:
+     num = input("Wprowadź liczbę: ")
+     num = int(num)
+     suma = suma + num
+ print(suma)
 
 #Dziwactwa
 L = [1,2,3,4]
